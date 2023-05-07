@@ -1,0 +1,1 @@
+function o(t){return window.btoa(t)}function c(t){if(!a(t))throw new Error("Incorrect base64 string");const r=e(t);try{return window.atob(r)}catch{throw new Error("Incorrect base64 string")}}function e(t){return t.replace(/^data:.*?;base64,/,"")}function a(t){const r=e(t);try{return window.btoa(window.atob(r))===r}catch{return!1}}export{c as b,a as i,o as t};

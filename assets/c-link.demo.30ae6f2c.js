@@ -1,0 +1,1 @@
+import{d as e,k as t,l as a,w as n,p as o,q as s,o as _,m as c}from"./index.ca2546a6.js";const l=s("h2",null,"Default",-1),u=e({__name:"c-link.demo",setup(r){return(d,m)=>(_(),t("div",null,[l,a(o,{"mx-1":""},{default:n(()=>[c(" Link ")]),_:1})]))}});export{u as default};

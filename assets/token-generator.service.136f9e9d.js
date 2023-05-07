@@ -1,0 +1,1 @@
+import{s as f}from"./random.dbd16d9f.js";function c({withUppercase:s=!0,withLowercase:t=!0,withNumbers:o=!0,withSymbols:u=!1,length:e=64,alphabet:r}){const n=r!=null?r:[...s?"ABCDEFGHIJKLMOPQRSTUVWXYZ":"",...t?"abcdefghijklmopqrstuvwxyz":"",...o?"0123456789":"",...u?`.,;:!?./-"'#{([-|\\@)]=}*+`:""].join("");return f(n.repeat(e)).substring(0,e)}export{c};
