@@ -1,0 +1,1 @@
+const n=()=>Math.random(),e=t=>t[Math.floor(n()*t.length)],a=(t,o)=>Math.floor(n()*(o-t)+t),r=t=>{for(let o=t.length-1;o>0;o--){const s=Math.floor(Math.random()*(o+1));[t[o],t[s]]=[t[s],t[o]]}return t},h=(t,o="")=>r(t.split(o)).join(o),l=()=>`id-${n().toString(36).substring(2,12)}`;export{a,l as g,e as r,h as s};
