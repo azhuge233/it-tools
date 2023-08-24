@@ -1,1 +1,0 @@
-import{u as s}from"./validation.b283a4a1.js";function i(a){return s({source:a,rules:[{message:"Invalid MAC address",validator:r=>r.trim().match(/^([0-9A-Fa-f]{2}[:-]){2,5}([0-9A-Fa-f]{2})$/)}]})}export{i as m};

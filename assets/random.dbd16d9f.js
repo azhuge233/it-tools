@@ -1,1 +1,0 @@
-const s=()=>Math.random(),l=t=>t[Math.floor(s()*t.length)],f=(t,o)=>Math.floor(s()*(o-t)+t),h=t=>{for(let o=t.length-1;o>0;o--){const n=Math.floor(Math.random()*(o+1));[t[o],t[n]]=[t[n],t[o]]}return t},r=(t,o="")=>h(t.split(o)).join(o);export{f as a,l as r,r as s};

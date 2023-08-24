@@ -1,1 +1,0 @@
-import{A as s,c7 as n,I as l,e as r,c8 as d}from"./index.2e6b7445.js";function f(u,{throttle:c}={}){const e=s(!0);let t;const a=()=>e.value=!0;return c?n(u,a,{throttle:c}):l(u,a),[r(()=>(e.value&&(t=u(),e.value=!1),t)),a]}function m(u,c){const e=s(!0);let t;const a=()=>e.value=!0;return l(u,a),[d(async()=>(e.value&&(t=await u(),e.value=!1),t),c),a]}export{f as a,m as c};

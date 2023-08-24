@@ -1,1 +1,0 @@
-import{o as e,k as o,q as t}from"./index.2e6b7445.js";const n={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"},a=t("path",{fill:"currentColor",d:"M19 21H8V7h11m0-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m-3-4H4a2 2 0 0 0-2 2v14h2V3h12V1Z"},null,-1),c=[a];function r(s,_){return e(),o("svg",n,c)}var i={name:"mdi-content-copy",render:r};export{i as _};
